@@ -5,16 +5,19 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
-
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
       <Greet name="sravan kumar" />
-      <Welcome name="sravan reddy"></Welcome>
-      <Hello name="sravan vudem" />
+      
+     
+      {/* <Welcome name="sravan reddy"></Welcome>
+      <Hello name="sravan vudem" /> */}
 
-      <Message/>
+      <Message />
+      <Counter/>
     </div>
   );
 }
